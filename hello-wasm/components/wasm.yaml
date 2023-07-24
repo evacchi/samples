@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: wasm
 spec:
-  type: middleware.http.wasm
+  type: bindings.wasm
   version: v1
   metadata:
   - name: url
-    value: "file://wasm/main.wasm"
+    value: "https://github.com/vmware-labs/webassembly-language-runtimes/releases/download/ruby%2F3.2.0%2B20230215-1349da9/ruby-3.2.0-slim.wasm"
